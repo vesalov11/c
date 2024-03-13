@@ -11,7 +11,7 @@ int main()
 
 
 
-gotovoo
+gotovoo#######
 printf("*\n");
 printf("**\n");
 printf("***\n");
