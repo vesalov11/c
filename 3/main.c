@@ -58,7 +58,7 @@ int main() {
     printf("числото след бунуса е %d\n", points + bonus);
 
 5
-*/
+
 int main() {
     int time1, time2, time3;
     printf("моля въведете времена");
@@ -66,6 +66,27 @@ int main() {
 
     int total_seconds = time1 + time2 + time3;
     printf("времето е %d:%02d\n", total_seconds / 60, total_seconds % 60);
+
+6
+*/
+
+
+#include <stdio.h>
+
+int main() {
+    double x1, y1, x2, y2, x, y;
+
+    scanf("%lf", &x1);
+    scanf("%lf", &y1);
+    scanf("%lf", &x2);
+    scanf("%lf", &y2);
+    scanf("%lf", &x);
+    scanf("%lf", &y);
+
+    if (x >= x1 && x <= x2 && y >= y1 && y <= y2) {
+        printf("Inside\n");
+    }
+
 
     return 0;
 
