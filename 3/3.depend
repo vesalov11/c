@@ -1,4 +1,7 @@
 # depslib dependency file v1.0
-1710940793 source:d:\miv\c\3\3\main.c
+1711100207 source:d:\miv\c\3\3\main.c
+	<stdio.h>
+
+1711098490 source:d:\miv\c\3\3\untitled1.c
 	<stdio.h>
 

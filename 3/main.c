@@ -167,7 +167,7 @@ int main() {
     }
 
 11
-*/
+
 int main() {
     int n;
     printf("Enter the size of the fortress: ");
@@ -181,6 +181,50 @@ int main() {
         else
             printf("|%*s|%*s|\n", n * 2 - 2, "", n * 2 - 2, "");
     }
+----------------------------------------------------------------------------------
+void swap(int &x, int &y) {
+    int temp = x;
+    x = y;
+    y = temp;
+}
+
+int main() {
+    int num1, num2;
+
+
+    printf("vavedi 2 chisla ");
+    scanf("%d %d", &num1, &num2);
+
+    printf("predi razmqna chislo1 = %d, chislo2 = %d\n", num1, num2);
+
+    swap(&num1, &num2);
+
+    printf("sled razmqna chislo1 = %d, chislo2 = %d\n", num1, num2);
+
+
+
+
+
+
+int fibonacci( n) {
+    return (n <= 1) ? n : fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+
+
+int main() {
+    int n;
+
+    printf("broi chisla: ");
+    scanf("%d", &n);
+
+    printf(" %d chislata na fibunachi sa \n", n);
+    for (int i = 0; i < n; i++) {
+        printf("%d ", fibonacci(i));
+    }
+    printf("\n");
+*/
+
 
 
     return 0;
